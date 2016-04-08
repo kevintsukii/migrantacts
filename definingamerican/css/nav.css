@@ -1,0 +1,73 @@
+/* HTML from Bootstrap */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* To Navigation Style */
+.nav-top {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.2);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.65em;
+	line-height: 2.6;
+	height: 36px;
+    z-index: 100 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-top a {
+	padding: 0.41em 1em;
+	letter-spacing: 0.1em;
+	color: whitesmoke;
+	display: inline-block;
+    z-index: 101 !important;
+    text-decoration: none;
+}
+
+.nav-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #333;
+}
+
+.nav-social {
+	float: left;
+	padding: 0.6em 0.6em 0 0.6em;
+}
+
+.nav-social span {
+	margin-right: 0.5em;
+}
+
+.nav-top span.right {
+	float: right;
+}
+
+.nav-top .vr span.right a{
+    background: rgba(255,255,255,0.95);
+	color: #333;
+}
+
+.nav-top span.right a {
+	float: left;
+	display: block;
+}
+
+/* BODY */
+
+body {
+	font-family: 'Roboto',Arial,sans-serif;
+}
